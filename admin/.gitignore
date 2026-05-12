@@ -1,0 +1,14 @@
+# Các file chứa biến môi trường (MẬT KHẨU)
+.env
+.env.local
+.env.*
+
+# Các thư viện đã cài đặt
+node_modules/
+dist/
+build/
+
+# Các file log và hệ thống
+npm-debug.log*
+yarn-error.log*
+.DS_Store
