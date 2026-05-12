@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 // 1. Kiểm tra và lấy URL Backend từ biến môi trường
-// Đảm bảo bạn đã đặt VITE_API_URL trong file .env (local) và Render Dashboard
-const API_BASE_URL = import.meta.env.VITE_API_URL;
+// Đảm bảo bạn đã đặt VITE_BACKEND_URL trong file .env (local) và Render Dashboard
+const API_BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
 const SESSION_KEY = "qlhb_admin_session";
 
